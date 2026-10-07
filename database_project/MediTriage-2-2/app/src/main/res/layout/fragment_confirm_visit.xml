@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="26dp">
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/bg_mint_card"
+        android:gravity="center"
+        android:text="🩺"
+        android:textSize="38sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:gravity="center"
+        android:text="Did you visit\nthis doctor?"
+        android:textColor="@color/ink"
+        android:textSize="26sp" />
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Let us know if you visited the recommended doctor so we can update your medical record"
+        android:textColor="@color/slate"
+        android:textSize="13sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/bg_card_white"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:text="🩺  General Practitioner\nDr. Hossam Khaled"
+        android:textColor="@color/ink"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/yesVisitedBtn"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/bg_button_green"
+        android:text="✅ Yes, I visited Dr. Hossam"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/noVisitedBtn"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_input"
+        android:text="No, I haven't visited yet"
+        android:textColor="@color/slate"
+        android:textStyle="bold" />
+
+</LinearLayout>

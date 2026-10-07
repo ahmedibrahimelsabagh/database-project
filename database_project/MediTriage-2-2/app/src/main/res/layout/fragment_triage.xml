@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/backBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="←"
+            android:textColor="@color/slate"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/questionCounterText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question 1 of 7"
+            android:textColor="@color/slate"
+            android:textSize="12sp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:layout_marginTop="8dp"
+            android:max="100"
+            android:progress="14"
+            android:progressTint="@color/green"
+            android:progressBackgroundTint="@color/mist" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/questionIcon"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:background="@drawable/bg_mint_card"
+            android:gravity="center"
+            android:text="🤒"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/questionTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Do you have a fever?"
+            android:textColor="@color/ink"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/questionSubtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select what best describes your current state"
+            android:textColor="@color/slate"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:id="@+id/optionsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/continueBtn"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/bg_button_green"
+        android:text="Continue →"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+</LinearLayout>

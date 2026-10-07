@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.MediTriage" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryVariant">@color/forest</item>
+        <item name="colorAccent">@color/lite_green</item>
+    </style>
+
+    <style name="Theme.MediTriage" parent="Base.Theme.MediTriage" />
+
+</resources>

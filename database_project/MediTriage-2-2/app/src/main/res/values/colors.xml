@@ -1,0 +1,24 @@
+<resources>
+    <color name="ink">#0C1B0E</color>
+    <color name="forest">#163320</color>
+    <color name="green">#1E6B3C</color>
+    <color name="mid_green">#2D9B5A</color>
+    <color name="lite_green">#52C47A</color>
+    <color name="mint">#E2F5EA</color>
+
+    <color name="gold">#C49A2A</color>
+    <color name="gold_pale">#FBF5E2</color>
+
+    <color name="cream">#F8F6F1</color>
+    <color name="white">#FFFFFF</color>
+    <color name="stone">#F0EDE7</color>
+    <color name="mist">#E3DDD5</color>
+    <color name="border">#D5CFC6</color>
+
+    <color name="slate">#6B7A6E</color>
+    <color name="fog">#9BA89E</color>
+
+    <color name="red">#DC2626</color>
+    <color name="amber">#D97706</color>
+    <color name="blue">#2563EB</color>
+</resources>

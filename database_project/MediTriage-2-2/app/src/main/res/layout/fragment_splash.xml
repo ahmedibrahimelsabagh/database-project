@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_green_gradient"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="26dp">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/bg_mint_card"
+        android:gravity="center"
+        android:text="🏥"
+        android:textSize="34sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Health,\nUnderstood"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:text="Answer a few questions and get instant AI-powered triage guidance"
+        android:textAlignment="center"
+        android:textColor="#90FFFFFF"
+        android:textSize="12sp"
+        android:layout_marginTop="10dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/getStartedBtn"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:text="Get Started"
+        android:textColor="@color/forest"
+        android:textStyle="bold"
+        android:background="@drawable/bg_button_white" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="I have an account"
+        android:textColor="#CCFFFFFF"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#22FFFFFF" />
+
+</LinearLayout>

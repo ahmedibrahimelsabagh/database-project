@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/backBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="←"
+            android:textSize="28sp"
+            android:textColor="@color/slate" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Account"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/ink" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fill in your details to get started"
+            android:textSize="12sp"
+            android:textColor="@color/slate"
+            android:layout_marginTop="4dp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FIRST NAME"
+                android:textColor="@color/slate"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/firstNameInput"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Ahmed"
+                android:background="@drawable/bg_input"
+                android:padding="14dp"
+                android:textColor="@color/ink"
+                android:textColorHint="@color/fog" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LAST NAME"
+                android:textColor="@color/slate"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:layout_marginTop="12dp" />
+
+            <EditText
+                android:id="@+id/lastNameInput"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Hassan"
+                android:background="@drawable/bg_input"
+                android:padding="14dp"
+                android:textColor="@color/ink"
+                android:textColorHint="@color/fog" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EMAIL"
+                android:textColor="@color/slate"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:layout_marginTop="12dp" />
+
+            <EditText
+                android:id="@+id/emailInput"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="ahmed@gmail.com"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/bg_input"
+                android:padding="14dp"
+                android:textColor="@color/ink"
+                android:textColorHint="@color/fog" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PHONE NUMBER"
+                android:textColor="@color/slate"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:layout_marginTop="12dp" />
+
+            <EditText
+                android:id="@+id/phoneInput"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="+20 100 000 0000"
+                android:inputType="phone"
+                android:background="@drawable/bg_input"
+                android:padding="14dp"
+                android:textColor="@color/ink"
+                android:textColorHint="@color/fog" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GENDER"
+                android:textColor="@color/slate"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:layout_marginTop="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/maleBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_option_selected"
+                    android:gravity="center"
+                    android:text="♂ Male"
+                    android:textColor="@color/green"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:layout_width="8dp"
+                    android:layout_height="1dp" />
+
+                <TextView
+                    android:id="@+id/femaleBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_input"
+                    android:gravity="center"
+                    android:text="♀ Female"
+                    android:textColor="@color/slate"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BLOOD TYPE"
+                android:textColor="@color/slate"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:layout_marginTop="12dp" />
+
+            <EditText
+                android:id="@+id/bloodInput"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="A+"
+                android:background="@drawable/bg_input"
+                android:padding="14dp"
+                android:textColor="@color/ink"
+                android:textColorHint="@color/fog" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DATE OF BIRTH"
+                android:textColor="@color/slate"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:layout_marginTop="12dp" />
+
+            <EditText
+                android:id="@+id/dobInput"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="10 / 05 / 2002"
+                android:background="@drawable/bg_input"
+                android:padding="14dp"
+                android:textColor="@color/ink"
+                android:textColorHint="@color/fog" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/createAccountBtn"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_margin="20dp"
+        android:text="Create Account →"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/bg_button_green" />
+
+</LinearLayout>
